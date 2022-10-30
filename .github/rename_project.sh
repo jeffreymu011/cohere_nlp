@@ -16,10 +16,10 @@ echo "Description: $description";
 
 echo "Renaming project..."
 
-original_author="author_name"
-original_name="project_name"
-original_urlname="project_urlname"
-original_description="project_description"
+original_author="jeffreymu011"
+original_name="cohere_nlp"
+original_urlname="cohere_nlp"
+original_description="Awesome cohere_nlp created by jeffreymu011"
 # for filename in $(find . -name "*.*") 
 for filename in $(git ls-files) 
 do
@@ -30,7 +30,7 @@ do
     echo "Renamed $filename"
 done
 
-mv project_name $name
+mv cohere_nlp $name
 
 # This command runs only once on GHA!
 rm -rf .github/template.yml
